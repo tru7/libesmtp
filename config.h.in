@@ -1,10 +1,4 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
-/* Turn off the GCC specific __attribute__ keyword */
-#if !defined (__GNUC__) || __GNUC__ < 2
-# define __attribute__(x)
-#endif
-
-
 
 /* Define if building universal (internal helper macro) */
 #undef AC_APPLE_UNIVERSAL_BUILD

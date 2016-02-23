@@ -24,9 +24,9 @@ dnl Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 dnl 
 dnl #########################################################################
 
-AC_INIT(smtp-api.c)
+AC_INIT(libesmtp, 1.0.6)
 AM_CONFIG_HEADER(config.h)
-AM_INIT_AUTOMAKE([libesmtp],[1.0.6])
+AM_INIT_AUTOMAKE([foreign])
 AC_CANONICAL_HOST
 AC_CONFIG_MACRO_DIR([m4])
 
